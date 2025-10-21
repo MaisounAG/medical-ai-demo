@@ -31,10 +31,6 @@ We will use a subset of the **MIMIC-CXR dataset** **[1][2]**. The MIMIC Chest X-
 """
 
 DATA_PATH = "./"
-!curl https://uni-bonn.sciebo.de/s/cm2Rq2A5nQyQGsb/download/test_df.csv --output test_df.csv
-!curl https://uni-bonn.sciebo.de/s/REoaEMzmK8fsmYL/download/train_df.csv --output train_df.csv
-!curl https://uni-bonn.sciebo.de/s/K4isoXa6cENkHJp/download/val_df.csv --output val_df.csv
-
 !wget https://uni-bonn.sciebo.de/s/KrMiTk2X7sgBCwK/download/MIMIC-CXR-png.zip -O MIMIC-CXR-png.zip
 !unzip MIMIC-CXR-png.zip -d ./
 
