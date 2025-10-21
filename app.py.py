@@ -31,8 +31,6 @@ We will use a subset of the **MIMIC-CXR dataset** **[1][2]**. The MIMIC Chest X-
 """
 
 DATA_PATH = "./"
-!wget https://uni-bonn.sciebo.de/s/KrMiTk2X7sgBCwK/download/MIMIC-CXR-png.zip -O MIMIC-CXR-png.zip
-!unzip MIMIC-CXR-png.zip -d ./
 
 """### Setup and Data Loading
 
@@ -40,7 +38,6 @@ First, we'll set up our environment by installing necessary libraries and loadin
 
 """
 
-!pip install -q transformers peft pandas torch torchvision scikit-learn
 
 # Install required libraries
 import pandas as pd
